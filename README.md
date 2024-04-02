@@ -5,8 +5,8 @@
 ### This project automates the Extract, Tranform, Load (ETL) process using Apache Airflow on an Amazon EC2 instance. The ETL process extracts data from various sources, transforms it, and loads the transformed data into an Amazon S3 bucket.
 
 ## Prerequisites 
-### Amazon EC2 instance with  Apache Airflow installed and configured.
-### AWS credentials with permissions to access Amazon S3.
+#### Amazon EC2 instance with  Apache Airflow installed and configured.
+#### AWS credentials with permissions to access Amazon S3.
 
 ## Install Dependencies:
 #### Make sure to install any necessary dependencies for your data extraction and transformation scripts.
