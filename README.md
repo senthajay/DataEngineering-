@@ -21,7 +21,7 @@
 
 ### Update DAG Configuration:
 
-#### Update the etl_workflow.py DAG configuration file in the dags/ directory according to your ETL workflow requirements. Specify the tasks for data extraction, transformation, and loading, along with their dependencies and scheduling parameters.
+#### Update the twitter_dag.py DAG configuration file in the dags/ directory according to your ETL workflow requirements. Specify the tasks for data extraction, transformation, and loading, along with their dependencies and scheduling parameters.
 
 ### Run Apache Airflow:
 
@@ -29,5 +29,5 @@
 
 ### Monitor and Trigger Workflow:
 
-#### Access the Apache Airflow web interface in your browser and navigate to the DAGs page. You should see the etl_workflow DAG listed. Monitor the DAG runs and trigger manual executions as needed.
+#### Access the Apache Airflow web interface in your browser and navigate to the DAGs page. You should see the etl_twitter DAG listed. Monitor the DAG runs and trigger manual executions as needed.
 
