@@ -8,25 +8,26 @@
 ### Amazon EC2 instance with  Apache Airflow installed and configured.
 ### AWS credentials with permissions to access Amazon S3.
 
-### Install Dependencies:Make sure to install any necessary dependencies for your data extraction and transformation scripts.
+## Install Dependencies:
+#### Make sure to install any necessary dependencies for your data extraction and transformation scripts.
 
 ### Configure AWS Credentials:
 
-### Ensure that AWS credentials are configured on your EC2 instance to allow access to Amazon S3. You can do this by setting environment variables or using AWS CLI configuration.
+#### Ensure that AWS credentials are configured on your EC2 instance to allow access to Amazon S3. You can do this by setting environment variables or using AWS CLI configuration.
 
 ### Configure Apache Airflow:
 
-### Apache Airflow should already be installed and configured on your EC2 instance. Make sure that the necessary connections and variables are set up in the Airflow UI for accessing AWS S3 and any other required services.
+#### Apache Airflow should already be installed and configured on your EC2 instance. Make sure that the necessary connections and variables are set up in the Airflow UI for accessing AWS S3 and any other required services.
 
 ### Update DAG Configuration:
 
-### Update the etl_workflow.py DAG configuration file in the dags/ directory according to your ETL workflow requirements. Specify the tasks for data extraction, transformation, and loading, along with their dependencies and scheduling parameters.
+#### Update the etl_workflow.py DAG configuration file in the dags/ directory according to your ETL workflow requirements. Specify the tasks for data extraction, transformation, and loading, along with their dependencies and scheduling parameters.
 
 ### Run Apache Airflow:
 
-### Start the Apache Airflow scheduler and webserver on your EC2 instance using the appropriate commands. Make sure that Airflow is up and running without any errors.
+#### Start the Apache Airflow scheduler and webserver on your EC2 instance using the appropriate commands. Make sure that Airflow is up and running without any errors.
 
 ### Monitor and Trigger Workflow:
 
-### Access the Apache Airflow web interface in your browser and navigate to the DAGs page. You should see the etl_workflow DAG listed. Monitor the DAG runs and trigger manual executions as needed.
+#### Access the Apache Airflow web interface in your browser and navigate to the DAGs page. You should see the etl_workflow DAG listed. Monitor the DAG runs and trigger manual executions as needed.
 
