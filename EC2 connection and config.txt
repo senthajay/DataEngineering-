@@ -1,0 +1,27 @@
+permissions are too open error ec2 commands :
+
+1. icacls airflow_key.pem /inheritance:r
+2.  icacls airflow_key.pem /grant:r SENTHA.JAY:R
+3.icacls airflow_key.pem /remove "NT AUTHORITY\Authenticated Users"
+4.icacls airflow_key.pem
+5.icacls airflow_key.pem /remove "BUILTIN\Users"
+6. paste your ssh command from the ec2 connect 
+###################################################################################################
+###################################################################################################
+
+
+Now we need to use some Amazon-linux commands to update our machine 
+
+1. sudo yum update
+2. sudo yum install python
+3. sudo yum install python-pip
+4. sudo pip install apache-airflow
+5. sudo pip install pandas 
+6. sudo pip install s3fs
+################################################################################
+###############################################################################
+
+To run the apache-airflow in the browser
+-- airflow webserver 
+it runs on port :8080
+#################################################################################3
